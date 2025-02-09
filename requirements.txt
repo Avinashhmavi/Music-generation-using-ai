@@ -1,0 +1,10 @@
+streamlit
+python-dotenv
+transformers
+huggingface_hub
+elevenlabs
+langchain
+soundfile  # For audio playback
+torch
+transformers
+scipy
