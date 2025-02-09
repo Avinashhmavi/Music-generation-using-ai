@@ -1,24 +1,17 @@
-## AI Music Generation Platform
+# 🎵 AI Music Generation Platform
 
-Welcome to the AI Music Generation Platform! This application allows users to create unique music tracks using artificial intelligence, powered by Facebook's [MusicGen](https://github.com/facebookresearch/audiocraft) model and presented through a user-friendly [Streamlit](https://streamlit.io/) interface.
+Welcome to the AI Music Generation Platform! This application empowers users to create unique music tracks using artificial intelligence.
 
-## Table of Contents
+**Explore the live application here: [AI Music Generation Platform](https://music-generation-using-ai.streamlit.app/)**
 
-- [Features](#features)
-- [Pre-Installation Requirements](#pre-installation-requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [System Requirements](#system-requirements)
-- [Acknowledgements](#acknowledgements)
+## 🌟 Features
 
-## Features
+- **AI-Powered Music Creation:** Generate music based on customizable parameters such as genre, mood, tempo, and optional lyrics.
+- **Intuitive Interface:** User-friendly controls for setting music generation parameters.
+- **Real-Time Playback:** Listen to generated tracks directly within the application.
+- **Downloadable Tracks:** Save your creations as WAV files for future enjoyment.
 
-- **AI-Powered Music Generation:** Create music based on customizable parameters such as genre, mood, tempo, and optional lyrics.
-- **User-Friendly Interface:** Intuitive controls for setting music generation parameters.
-- **Real-Time Audio Playback:** Listen to generated tracks directly within the application.
-- **Downloadable Outputs:** Save your generated music as WAV files for future use.
-
-## Pre-Installation Requirements
+## 🛠️ Pre-Installation Requirements
 
 Before setting up the application, ensure your system meets the following requirements:
 
@@ -26,7 +19,7 @@ Before setting up the application, ensure your system meets the following requir
 - **Python Version:** Python 3.8 or higher
 - **Hardware:** A CUDA-enabled GPU is recommended for optimal performance, especially for generating longer music tracks.
 
-## Installation
+## 🚀 Installation
 
 Follow these steps to set up the application:
 
@@ -57,7 +50,7 @@ ELEVENLABS_API_KEY=your_elevenlabs_api_key
 
 Replace your_huggingface_api_key and your_elevenlabs_api_key with your actual API keys.
 
-Usage
+🎯 Usage
 
 To run the application:
 	1.	Activate the Virtual Environment:
@@ -81,15 +74,14 @@ streamlit run app.py
 	•	Optional Lyrics: Provide lyrics to influence the music generation.
 	•	Click the “Generate Music” button to create your track. The generated music will be displayed on the right side of the interface, where you can listen to it and download the WAV file.
 
-System Requirements
+🖥️ System Requirements
 	•	Hardware: A CUDA-enabled GPU is recommended for optimal performance. Generating music without a GPU may be significantly slower and is not recommended for longer durations.
 	•	Memory: At least 8GB of RAM is recommended.
 	•	Storage: Ensure you have sufficient disk space (~5GB) for model files and generated outputs.
 
-Acknowledgements
+🙏 Acknowledgements
 
 This application utilizes the following open-source projects:
 	•	MusicGen by Meta
 	•	Hugging Face Transformers
 	•	Streamlit
-
