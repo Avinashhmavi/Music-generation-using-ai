@@ -26,7 +26,7 @@ Follow these steps to set up the application:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/ai-music-generation-platform.git
+   git clone https://github.com/Avinashhmavi/Music-generation-using-ai.git
    cd ai-music-generation-platform
 
 	2.	Set Up a Virtual Environment:
